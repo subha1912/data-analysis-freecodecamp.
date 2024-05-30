@@ -1,4 +1,4 @@
-#mean-var-std
+## mean-var-std
 
 Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 
@@ -6,7 +6,7 @@ The input of the function should be a list containing 9 digits. The function sho
 
 If a list containing less than 9 elements is passed into the function, it should raise a ValueError exception with the message: "List must contain nine numbers." The values in the returned dictionary should be lists and not Numpy arrays.
 
-#demograhic data analyzer
+## demograhic data analyzer
 
 How many people of each race are represented in this dataset? This should be a Pandas series with race names as the index labels. (race column)
 What is the average age of men?
@@ -19,7 +19,7 @@ What country has the highest percentage of people that earn >50K and what is tha
 Identify the most popular occupation for those who earn >50K in India.
 Use the starter code in the file demographic_data_analyzer.py
 
-#medical data visualizer
+## medical data visualizer
 
 By each number in the medical_data_visualizer.py file, add the code from the associated instruction number below.
 
@@ -43,7 +43,7 @@ Generate a mask for the upper triangle and store it in the mask variable
 Set up the matplotlib figure
 Plot the correlation matrix using the method provided by the seaborn library import: sns.heatmap()
 
-#page view time series visualizer
+## page view time series visualizer
 
 Use Pandas to import the data from "fcc-forum-pageviews.csv". Set the index to the date column.
 Clean the data by filtering out days when the page views were in the top 2.5% of the dataset or bottom 2.5% of the dataset.
@@ -51,7 +51,7 @@ Create a draw_line_plot function that uses Matplotlib to draw a line chart simil
 Create a draw_bar_plot function that draws a bar chart similar to "examples/Figure_2.png". It should show average daily page views for each month grouped by year. The legend should show month labels and have a title of Months. On the chart, the label on the x axis should be Years and the label on the y axis should be Average Page Views.
 Create a draw_box_plot function that uses Seaborn to draw two adjacent box plots similar to "examples/Figure_3.png". These box plots should show how the values are distributed within a given year or month and how it compares over time. The title of the first chart should be Year-wise Box Plot (Trend) and the title of the second chart should be Month-wise Box Plot (Seasonality). Make sure the month labels on bottom start at Jan and the x and y axis are labeled correctly. The boilerplate includes commands to prepare the data.
 
-#sea level predictor
+## sea level predictor
 
 Use Pandas to import the data from epa-sea-level.csv.
 Use matplotlib to create a scatter plot using the Year column as the x-axis and the CSIRO Adjusted Sea Level column as the y-axis.
